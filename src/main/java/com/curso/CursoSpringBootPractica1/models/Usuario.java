@@ -10,6 +10,7 @@ public class Usuario {
     private String password;
 
     // Constructor de la clase Usuario
+    // N/A
 
     // Métodos de la clase Usuario incluyendo getters y setters
     public String getNombre(){
