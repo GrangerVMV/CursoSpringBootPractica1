@@ -3,6 +3,7 @@ package com.curso.CursoSpringBootPractica1.models;
 public class Usuario {
 
     // Atributos de la clase Usuario
+    private Long id;
     private String nombre;
     private String apellido;
     private String email;
@@ -13,6 +14,14 @@ public class Usuario {
     // N/A
 
     // Métodos de la clase Usuario incluyendo getters y setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getNombre(){
         return nombre;
     }
